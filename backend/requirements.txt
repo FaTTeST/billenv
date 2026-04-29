@@ -1,0 +1,47 @@
+# Core dependencies
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Validation
+pydantic==2.10.4
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# Security
+passlib[argon2]==1.7.4
+python-jose[cryptography]==3.3.0
+cryptography==44.0.0
+
+# Authentication
+python-multipart==0.0.20
+
+# Async support
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Image processing
+Pillow==11.1.0
+fsspec==2024.12.0
+
+# Background tasks
+celery==5.4.0
+redis==5.2.1
+
+# Notifications
+aiosmtplib==3.0.2
+
+# Monitoring
+sentry-sdk[fastapi]==2.20.0
+
+# Development
+black==24.10.0
+isort==5.13.2
+mypy==1.14.0
+pytest==8.3.4
+pytest-asyncio==0.24.0
